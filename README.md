@@ -12,6 +12,7 @@ D: Dependency Inversion Principle (DIP)
 
 
 **S: Single Responsibility Principle (SRP)**
+
 Example:
 public class UserService  
 {  
@@ -31,7 +32,7 @@ public class UserService
    {  
      _smtpClient.Send(message);  
    }  
-}  
+}   
 
 **The SendEmail and ValidateEmail methods have nothing to do within the UserService class. Let's refract it.**
 
